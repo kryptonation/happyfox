@@ -1,0 +1,29 @@
+[
+  {
+    "conditions": [
+      {
+        "field": "from_address",
+        "predicate": "contains",
+        "value": "unknown"
+      },
+      {
+        "field": "subject",
+        "predicate": "not contains",
+        "value": "Spam"
+      }
+    ],
+    "predicate": "All",
+    "actions": ["mark_as_read"]
+  },
+  {
+    "conditions": [
+      {
+        "field": "subject",
+        "predicate": "contains",
+        "value": "Urgent"
+      }
+    ],
+    "predicate": "Any",
+    "actions": ["mark_as_unread"]
+  }
+]
