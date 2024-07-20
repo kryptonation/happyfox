@@ -11,6 +11,10 @@ This application is designed to integrate with the Gmail API to fetch emails, st
 5. **Logging**: Logs significant events and actions to facilitate debugging and monitoring.
 6. **Testing**: Includes unit tests to verify the functionality of the rule processing logic.
 
+## Demo Video
+
+- **To see the installation setup and how to use the application, watch the demo video**: https://youtu.be/AhQl7VH_ITU
+
 ## Setup
 
 1. Install dependencies:
